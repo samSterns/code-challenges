@@ -63,3 +63,5 @@ class BinaryTree {
     return max;
   }
 }
+
+// the search function seems beyond me right now for my 3rd day working on this challenge 
