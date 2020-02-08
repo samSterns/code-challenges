@@ -69,7 +69,11 @@ class BinaryTree {
     if(!this.root) return;
     let max = this.root.value;
 
-   
+   // make a function
+   // redefine max to hold max value of a whole number
+   // keep track of previous value and current left and right nodes 
+   // check it against the root
+   // return/ find max value
   }
 }
 
