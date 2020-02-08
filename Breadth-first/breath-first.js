@@ -65,18 +65,5 @@ class BinaryTree {
       return results; 
   }
 
-  findMax() {
-    if(!this.root) return;
-    let max = this.root.value;
-
-    (function castPreArray(current){
-      if(current){
-        max = Math.max(current.value, max);
-        castPreArray(current.left);
-        castPreArray(current.right);
-      }
-    }).apply(null, [this.root]);
-    return max;
-  }
 }
 
